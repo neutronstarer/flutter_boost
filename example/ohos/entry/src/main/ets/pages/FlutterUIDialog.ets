@@ -77,7 +77,7 @@ export struct FlutterUIDialog {
     .onReady((ctx: NavDestinationContext) => {
       try {
         hilog.info(0x0000, TAG, "onReady===");
-        this.flutterEntry?.onReady(ctx.pathStack);
+        this.flutterEntry?.onReady(ctx.pathStack, ctx.pathInfo.param);
       } catch (e) {
         hilog.error(0x0000, TAG, `onReady catch exception: ${JSON.stringify(e)}`);
       }

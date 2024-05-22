@@ -15,7 +15,21 @@
 
 {
   "app": {
-    "signingConfigs": [],
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "/Users/neutronstarer/.ohos/config/default_ohos_70a8MkgOKCssbUNTAjBLLqdUndZjUf6pIUtT-4m_7qU=.cer",
+          "storePassword": "0000001BC4EA2EF0126CC60AE0EF38EFF0AE9CA618AF7AAB193F84D5D5E5812E6D1A3DBAF826EE9864929A",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001B05EC50A37CB4BFE59FB8A0C91F68C9D005FAD8B3CE0DA72ABD8DB1DF92416DFF81084E86F3DEA2",
+          "profile": "/Users/neutronstarer/.ohos/config/default_ohos_70a8MkgOKCssbUNTAjBLLqdUndZjUf6pIUtT-4m_7qU=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "/Users/neutronstarer/.ohos/config/default_ohos_70a8MkgOKCssbUNTAjBLLqdUndZjUf6pIUtT-4m_7qU=.p12"
+        }
+      }
+    ],
     "products": [
       {
         "name": "default",
